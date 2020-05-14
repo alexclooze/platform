@@ -1,0 +1,13 @@
+{
+  "sw-settings-system-info": {
+    "general": {
+      "mainMenuItemGeneral": "Produktliste",
+      "textHeadline": "Produktliste",
+      "description": "Verwaltung von Einstellungen für die Produktliste.",
+      "buttonSave": "Speichern",
+      "titleSaveSuccess": "Erfolg",
+      "messageSaveSuccess": "Die Konfiguration wurde erfolgreich gespeichert.",
+      "titleSaveError": "Fehler beim Speichern der Konfiguration."
+    }
+  }
+}
