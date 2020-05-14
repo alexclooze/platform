@@ -25,7 +25,7 @@ Module.register('sw-settings-system-info', {
 
     settingsItem: {
         group: 'system',
-        to: 'sw.settings.info.index',
+        to: 'sw.settings.system-info.index',
         icon: 'default-device-server'
     }
 });
