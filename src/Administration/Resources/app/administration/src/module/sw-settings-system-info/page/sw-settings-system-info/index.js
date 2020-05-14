@@ -10,8 +10,7 @@ Component.register('sw-settings-system-info', {
     ],
     data() {
         return {
-            isLoading: false,
-            isSaveSuccessful: false
+            isLoading: false
         };
     },
     methods: {

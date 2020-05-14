@@ -10,7 +10,7 @@ Module.register('sw-settings-system-info', {
     version: '1.0.0',
     targetVersion: '1.0.0',
     color: '#9AA8B5',
-    icon: 'default-action-settings',
+    icon: 'default-device-server',
     favicon: 'icon-module-settings.png',
 
     routes: {
@@ -25,7 +25,7 @@ Module.register('sw-settings-system-info', {
 
     settingsItem: {
         group: 'system',
-        to: 'sw.settings.system-info.index',
-        icon: 'default-symbol-products'
+        to: 'sw.settings.info.index',
+        icon: 'default-device-server'
     }
 });

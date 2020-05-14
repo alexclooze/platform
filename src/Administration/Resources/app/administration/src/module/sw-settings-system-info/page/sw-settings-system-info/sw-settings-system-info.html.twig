@@ -1,5 +1,5 @@
 {% block sw_settings_system_info_index %}
-<sw-page class="sw-settings-sytem-info">
+<sw-page class="sw-settings-system-info">
 
     {% block sw_settings_system_info_search_bar %}
         <template slot="search-bar">
@@ -27,23 +27,6 @@
                 </h2>
             {% endblock %}
         </template>
-    {% endblock %}
-
-    {% block sw_settings_system_info_smart_bar_actions %}
-    <template slot="smart-bar-actions">
-        {% block sw_settings_system_info_actions_save %}
-        <sw-button-process
-            class="sw-settings-system-info__save-action"
-            :isLoading="isLoading"
-            :processSuccess="isSaveSuccessful"
-            :disabled="isLoading"
-            variant="primary"
-            @process-finish="saveFinish"
-            @click="onSave">
-            {{ $tc('sw-settings-system-info.general.buttonSave') }}
-        </sw-button-process>
-        {% endblock %}
-    </template>
     {% endblock %}
 
     {% block sw_settings_system_info_content %}
